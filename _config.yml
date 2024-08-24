@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Robert S. Wharton"
-title_separator          : "-"
+title                    : "astronomical software"
+title_separator          : ""
 name                     : &name "Robert S. Wharton"
 description              : &description "personal description"
 url                      : https://rwharton.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -22,8 +22,8 @@ repository               : "rwharton/rwharton.github.io"
 author:
   # Biographic information
   avatar           : "profile_de.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "Robert S. Wharton"
+  pronouns         : #"he/him"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Pasadena, CA"
   employer         : #"Red Brick University"
