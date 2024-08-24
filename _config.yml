@@ -12,7 +12,7 @@ title                    : "Robert S. Wharton"
 title_separator          : "-"
 name                     : &name "Robert S. Wharton"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://rwharton.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rwharton/rwharton.github.io"
 
