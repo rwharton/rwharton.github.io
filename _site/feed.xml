@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-24T21:28:16-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">astronomical software</title><subtitle>personal description</subtitle><author><name>Robert S. Wharton</name><email>rswharton95@gmail.com</email></author><entry><title type="html">Highest Point in Delaware</title><link href="http://localhost:4000/posts/2024/08/blog-post-5/" rel="alternate" type="text/html" title="Highest Point in Delaware" /><published>2024-08-24T00:00:00-07:00</published><updated>2024-08-24T00:00:00-07:00</updated><id>http://localhost:4000/posts/2024/08/blog-post-5</id><content type="html" xml:base="http://localhost:4000/posts/2024/08/blog-post-5/"><![CDATA[<p>There are 13 US states with <a href="https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_elevation">peak elevations</a> above 10,000 feet.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-25T07:21:30-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">astronomical software</title><subtitle>personal description</subtitle><author><name>Robert S. Wharton</name><email>rswharton95@gmail.com</email></author><entry><title type="html">Highest Point in Delaware</title><link href="http://localhost:4000/posts/2024/08/blog-post-5/" rel="alternate" type="text/html" title="Highest Point in Delaware" /><published>2024-08-24T00:00:00-07:00</published><updated>2024-08-24T00:00:00-07:00</updated><id>http://localhost:4000/posts/2024/08/blog-post-5</id><content type="html" xml:base="http://localhost:4000/posts/2024/08/blog-post-5/"><![CDATA[<p>There are 13 US states with <a href="https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_elevation">peak elevations</a> above 10,000 feet.
 The state of Delaware is not one of them.
 Not even close. <a href="https://en.wikipedia.org/wiki/Ebright_Azimuth">Ebright Azimuth</a>, 
 the highest point in Delaware, tops out at 448 feet above sea level.
@@ -325,4 +325,209 @@ them to memory.</p>
 
 <hr />
 
-<p><em>This was originally published on an</em> <a href="https://thevirtuosi.blogspot.com/2010/09/beards-and-pulsars.html">old blog</a> <em>I ran with other physics grad students.</em></p>]]></content><author><name>Robert S. Wharton</name><email>rswharton95@gmail.com</email></author><category term="old blog" /><category term="pulsars" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p><em>This was originally published on an</em> <a href="https://thevirtuosi.blogspot.com/2010/09/beards-and-pulsars.html">old blog</a> <em>I ran with other physics grad students.</em></p>]]></content><author><name>Robert S. Wharton</name><email>rswharton95@gmail.com</email></author><category term="old blog" /><category term="pulsars" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">How Long Will a Bootprint Last on the Moon?</title><link href="http://localhost:4000/posts/2010/01/moon/" rel="alternate" type="text/html" title="How Long Will a Bootprint Last on the Moon?" /><published>2010-01-01T00:00:00-08:00</published><updated>2010-01-01T00:00:00-08:00</updated><id>http://localhost:4000/posts/2010/01/boot-moon</id><content type="html" xml:base="http://localhost:4000/posts/2010/01/moon/"><![CDATA[<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="/images/bootprint_buzz.jpg" alt="alt text" title="Boot" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Buzz Aldrin’s bootprint (source: Wikipedia)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>A couple of months ago, I stumbled across a bunch of
+<a href="http://lroc.sese.asu.edu/images/157">pictures</a>
+of Apollo landing sites taken by one of the cameras onboard the Lunar
+Reconnaissance Orbiter. The images have a resolution high enough that
+you can resolve features on the surface down to about a meter. Looking
+at the Apollo 17 <a href="https://science.nasa.gov/resource/lro-apollo-17-landing-site-lithograph/">landing
+site</a>,
+you can see the trails of both astronauts and a moon buggy. 
+It’s pretty cool.</p>
+
+<p>It also got me thinking about how long the landing sites would be
+preserved. More specifically, I want to know how long Buzz Aldrin’s
+right bootprint (shown, incidentally, to the left) will last on the
+Moon. Since the Moon has no atmosphere, the wind and rain that would
+weather away a similar bootprint here on Earth are not present and it
+seems as though the print would last a really long time. But how long?
+Let’s try to quantify it.</p>
+
+<h2 id="pick-your-poison">Pick Your Poison</h2>
+
+<p>Before we get going, we need to figure out what physical process would
+be most important in erasing a bootprint from the Moon. Although the
+Moon lacks the conventional “weathering” we experience on Earth (due to
+wind, rain, etc), it does experience something called “<a href="http://en.wikipedia.org/wiki/Space_weathering">space
+weathering</a>.” Space
+weathering is the changing of the lunar surface due to cosmic rays,
+micrometeorite collisions, regular meteorite collisions, and the solar
+wind. Of these phenomena, the most apparent
+and well-studied would be the meteorites which have covered the Moon in
+craters. We adopt the meteorite impact as our primary means of wiping
+out a bootprint and restate our question as follows:</p>
+
+<p>“How long would it take for a meteorite to hit the Moon such that 
+the resulting crater wipes out Aldrin’s right bootprint?”</p>
+
+<h2 id="background">Background</h2>
+
+<p>As it is currently
+stated, we can answer our question if we knew the rate of formation and
+size distribution of the craters on the Moon. We could count up all the
+craters on the Moon (or a particular region of interest) and tabulate
+their sizes. This would give us the size distribution. It would also
+give us a headache and potentially drive us to lunacy
+Luckily, someone has beat us to it.</p>
+
+<p><a href="http://adsabs.harvard.edu/abs/1966MNRAS.134..245C">Cross (1966)</a> 
+used images from the Ranger 7 and 8 missions to count craters and 
+determine the size distribution of craters in three regions of the Moon. 
+The data for the crater distribution in the Sea of Tranquility 
+(where Apollo 11 landed) are given in the figure below. Cross found 
+that in the Sea of Tranquility, the number of craters with diameters 
+greater than X meters (per million square kilometers) is given by:</p>
+
+\[N(d&gt;X) = 10^{10}\left(\frac{X}{1~\mbox{m}}\right)^{-2},\]
+
+<p>which holds for craters with diameters between 1 meter and 10 
+kilometers (see figure below).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="/images/crater_pl.png" alt="alt text" title="Craters" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Figure 2 from Cross (1966)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We can also estimate the rate at which craters are formed from this
+data. If we assume that the craters formed at a constant rate over the
+age of the Moon (about 4 billion years), then we get about 2.5 craters
+with diameters above 1 meter formed in a million square kilometer area
+every year. This is a “crater flux” for the Moon. Written another way,
+the crater flux in the Sea of Tranquility is</p>
+
+\[F \approx 1~{\mbox{km}}^{-2} \frac{1}{4\times10^5~\mbox{yr}},\]
+
+<p>so we get that roughly one crater with diameter greater than 1 meter 
+is formed on a square kilometer of the Moon once every 400,000 years 
+or so.</p>
+
+<p>We now have enough information to do some simulations.</p>
+
+<h2 id="simulation">Simulation</h2>
+
+<p>I wrote up a code that simulates craters being formed on a 1 square 
+kilometer patch of the Moon. A crater is randomly placed in the 
+1 square kilometer region with a diameter pulled from the above 
+distribution. The bootprint is placed at the center of the grid 
+and craters are formed until we get a “hit.” At that point, the 
+time is recorded and the run stops. As a sanity check, I thought 
+it would be fun to just let the simulation run without caring if 
+the boot was hit or not. By simulating the craters in
+this way for 4 billion years, I should get something that looks like the
+Moon at the present day. Here’s a 200 m square from my simulation:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="/images/mymoon_wticks.png" alt="alt text" title="Simulation" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Simulated distribution of craters</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>and here’s a picture of the same-sized region on the surface of the
+Moon:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="/images/200sq_m_moon.jpg" alt="alt text" title="Real" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">(Source: LRO)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Just eyeballing it, things look pretty good.</p>
+
+<p>Now it’s time for the actual simulation. I ran the simulation 10,000 
+times and tabulated the amount of time needed before the bootprint was hit. 
+The figure below gives the
+<a href="http://en.wikipedia.org/wiki/Cumulative_distribution_function">CDF</a> for
+the hit times in the simulation. That is, for each time T, we find the
+fraction of simulations in which the bootprint got hit in a time less
+than or equal to T. The dashed lines in the plot indicate the amount of
+time needed to pass for half of the simulations to have recorded a hit.
+This time turns out to be about 24 billion years.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="/images/hit_cdf.png" alt="alt text" title="CDF for hit times" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">(Click for larger, actually readable version)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="conclusions-and-caveats">Conclusions and Caveats</h2>
+
+<p>Based on the simulations, the bootprint on the Moon would have about 
+even odds of lasting at least 20 billion years <em>if</em> the primary means 
+of destruction is through the formation of a crater from a meteorite. 
+However, there are a few caveats that should be addressed. These deal 
+with either the details of the simulation or the assumptions we have made. 
+In the simulation, we just took at 1 km square patch of the moon and scaled 
+back the “crater flux” accordingly. However, this does not fully account 
+for all possible craters that can form. For example, our simulation would 
+miss an event that hit 50 km away from the target, but had a diameter 
+of 100 km. Obviously this would hit the target, but we are only seeding 
+craters in the 1 square km region. This would mean that the actual lifetime 
+of the bootprint would be less than our 24 billion year figure. Re-running 
+with a 10km by 10km square region, we find a lifetime of 18 billion years. 
+Thus, an increase in area by a factor of 100 only reduces the age by 25%. 
+Considering areas much larger than this makes the simulation prohibitively 
+slow, but the order unity effect does not seem too significant.</p>
+
+<p>Additionally, we have made a number of assumptions. The big one is that we 
+have assumed that the craters currently seen on the Moon were formed 
+uniformly in time. In fact, a large fraction of the craters may have been 
+formed when the Moon was still very young (see <a href="http://en.wikipedia.org/wiki/Late_Heavy_Bombardment">Late Heavy
+Bombardment</a>). If
+this were the case, we would have greatly overestimated the rate of
+crater formation and thus underestimated the time needed to hit the
+bootprint.</p>
+
+<p>In spite of these caveats, let’s take our value of 20 billion
+years to be accurate. What else can we say? Well, if we are right then
+we are wrong because the Moon may not last that long (and it’s hard to
+have bootprints on the Moon without a Moon). Current
+<a href="http://en.wikipedia.org/wiki/Sun#Life_cycle">estimates</a> have that the
+Sun will expand into a red giant and (potentially) destroy the Earth
+(and the Moon) in about 5 billion years. So a record of the Apollo
+astronauts’ boot sizes could potentially last as long as the Moon. Not bad.</p>
+
+<hr />
+
+<p><em>This was originally published on an</em> <a href="https://thevirtuosi.blogspot.com/2012/01/how-long-will-bootprint-last-on-moon.html">old blog</a> <em>I ran with other physics grad students. A half-hearted attempt has been made to replace dead links.</em></p>]]></content><author><name>Robert S. Wharton</name><email>rswharton95@gmail.com</email></author><category term="Old Blog" /><category term="Moon" /><summary type="html"><![CDATA[Buzz Aldrin’s bootprint (source: Wikipedia)]]></summary></entry></feed>
