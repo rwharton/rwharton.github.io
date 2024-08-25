@@ -20,7 +20,7 @@
   @include breakpoint($large) {
     @include span(9 of 12 last); // first was 10
     @include prefix(0.5 of 12);
-    @include suffix(0.5 of 12); // first was .... 1? 2?
+    @include suffix(2 of 12); // first was .... 1? 2?
   }
 
   .page__inner-wrap {
