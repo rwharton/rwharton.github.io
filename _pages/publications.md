@@ -34,7 +34,7 @@ Selected Publications
   and Fast Radio Bursts*, PhD Thesis, 2017
   [[ADS]](https://ui.adsabs.harvard.edu/abs/2017PhDT.......101W/abstract)
 
-* Chatterjee, S., Law, C.~J., **Wharton, R.S.**, et al.,
+* Chatterjee, S., Law, C.J., **Wharton, R.S.**, et al.,
   *Direct localization of a fast radio burst and its
   enigmatic counterpart*,  Nature, 541, 58, 2017
   [[ADS]](https://ui.adsabs.harvard.edu/abs/2017Natur.541...58C/abstract) 
@@ -95,14 +95,64 @@ Publications
 * Main R.A., et al. (8 authors, including **Wharton, R.S.**),
   *Scintillation time-scale measurement of the highly active 
   FRB20201124A*, MNRAS, 509, 3172, 2022
-  [[ADS]](https://ui.adsabs.harvard.edu/abs/2022A%26A...664A..54G/abstract)
+  [[ADS]](https://ui.adsabs.harvard.edu/abs/2022MNRAS.509.3172M/abstract)
   [[arXiv]](https://arxiv.org/abs/2108.00052)
 
 * Marthi V.R., et al. (10 authors, including **Wharton, R.S.**),
   *Burst properties of the highly active FRB20201124A using uGMRT*,
   MNRAS, 509, 2209, 2022
-  [[ADS]](https://ui.adsabs.harvard.edu/abs/2022A%26A...664A..54G/abstract)
+  [[ADS]](https://ui.adsabs.harvard.edu/abs/2022MNRAS.509.2209M/abstract)
   [[arXiv]](https://arxiv.org/abs/2108.00697)
+
+2021
+----
+
+* Eatough R.P., et al. (13 authors, including **Wharton, R.S.**),
+  *Multi-epoch searches for relativistic binary pulsars and
+  fast transients in the Galactic Centre*, MNRAS, 507, 5053, 2021
+  [[ADS]](https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.5053E/abstract)
+  [[arXiv]](https://arxiv.org/abs/2108.05241)
+
+* Majid W.A., et al. (9 authors, including **Wharton, R.S.**),
+  *A Bright Fast Radio Burst from FRB 20200120E with Sub-100 
+  Nanosecond Structure*, ApJL, 919, L6, 2021
+  [[ADS]](https://ui.adsabs.harvard.edu/abs/2021ApJ...919L...6M/abstract)
+  [[arXiv]](https://arxiv.org/abs/2105.10987)
+
+* Liu K., et al. (27 authors, including **Wharton, R.S.**),
+  *An 86 GHz Search for Pulsars in the Galactic Center with 
+  the Atacama Large Millimeter / submillimeter Array*,
+  ApJ, 914, 30, 2021
+  [[ADS]](https://ui.adsabs.harvard.edu/abs/2021ApJ...914...30L/abstract)
+  [[arXiv]](https://arxiv.org/abs/2104.08986)
+
+* Torne P., et al. (16 authors, including **Wharton, R.S.**),
+  *Searching for pulsars in the Galactic centre at 3 and 2 mm*,
+  A\&A, 650, A95, 2021
+  [[ADS]](https://ui.adsabs.harvard.edu/abs/2021A%26A...650A..95T/abstract)
+  [[arXiv]](https://arxiv.org/abs/2103.16581)
+
+* Hilmarsson G.H., et al. (13 authors, including **Wharton, R.S.**),
+  *Rotation Measure Evolution of the Repeating Fast Radio Burst 
+  Source FRB 121102*, ApJL, 908, L10, 2021
+  [[ADS]](https://ui.adsabs.harvard.edu/abs/2021ApJ...908L..10H/abstract)
+  [[arXiv]](https://arxiv.org/abs/2009.12135)
+
+
+2020
+----
+
+* Aggarwal K., et al. (12 authors, including **Wharton, R.S.**),
+  *Your: Your Unified Reader*, JOSS, 5, 2750, 2020
+  [[ADS]](https://ui.adsabs.harvard.edu/abs/2020JOSS....5.2750A/abstract)
+  [[arXiv]](https://arxiv.org/abs/2011.07627)
+
+* Marthi V.R., et al. (8 authors, including **Wharton, R.S.**),
+  *Detection of 15 bursts from FRB 180916.J0158+65 with the
+  upgraded Giant Metrewave Radio Telescope*,
+  MNRAS, 499, L16, 2020
+  [[ADS]](https://ui.adsabs.harvard.edu/abs/2020MNRAS.499L..16M/abstract)
+  [[arXiv]](https://arxiv.org/abs/2007.14404)
 
 
 2019

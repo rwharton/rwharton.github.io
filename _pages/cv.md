@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: " "
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,6 +8,12 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+Curriculum Vitae
+==================
+
+A pdf version can be found [here](/files/wharton_cv.pdf).
+
 
 Education
 ======
@@ -70,15 +76,50 @@ Work experience
 
 Selected Publications
 ======
-* blah 
- 
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
- 
- 
+* **Wharton, R.S.** et al., *High Frequency FRB Search of Nearby Star
+  Forming Galaxies M77 and M82*, ApJ, *submitted*
+
+* Bansal K., **Wharton, R.S.**, et al.,
+  *Simultaneous Radio and X-ray Observations of the
+  Magnetar Swift J1818.0--1607*, MNRAS, 523, 2401, 2023
+  [[ADS]](https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.2401B/abstract)
+
+* Liu, K.,  Young, A., **Wharton, R.S.**, et al.,
+  *Detection of Pulses from the Vela Pulsar at Millimeter Wavelengths
+  with Phased ALMA*, ApJL, 885, L10, 2019
+  [[ADS]](https://ui.adsabs.harvard.edu/abs/2019ApJ...885L..10L/abstract)
+  [[arXiv]](https://arxiv.org/abs/1910.07974)
+
+* **Wharton, R.S.** et al., *VLA Observations of Single Pulses from
+  the Galactic Center Magnetar*, ApJ, 875, 143, 2019
+  [[ADS]](https://ui.adsabs.harvard.edu/abs/2019ApJ...875..143W/abstract)
+  [[arXiv]](https://arxiv.org/abs/1905.00632)
+
+* **Wharton, R.S.**, *Radio Interferometric Searches for Galactic Center Pulsars
+  and Fast Radio Bursts*, PhD Thesis, 2017
+  [[ADS]](https://ui.adsabs.harvard.edu/abs/2017PhDT.......101W/abstract)
+
+* Chatterjee, S., Law, C.~J., **Wharton, R.S.**, et al.,
+  *Direct localization of a fast radio burst and its
+  enigmatic counterpart*,  Nature, 541, 58, 2017
+  [[ADS]](https://ui.adsabs.harvard.edu/abs/2017Natur.541...58C/abstract)
+  [[arXiv]](https://arxiv.org/abs/1701.01098)
+
+* **Wharton, R.S.**, et al., *Multiwavelength Constraints on Pulsar Populations
+  in the Galactic Center*, ApJ, 753, 108, 2012
+  [[ADS]](https://ui.adsabs.harvard.edu/abs/2012ApJ...753..108W/abstract)
+  [[arXiv]](https://arxiv.org/abs/1111.4216)
+
+Full list of [publications](/publications)
+
+
+Honors and Awards
+===================
+* NASA Postdoctoral Program Fellowship (2021-2023)
+* Breakthrough Prize in Fundamental Physics, EHT Collaboration (2020)
+* Jean Bennet Award - Penn State Physics Award - (2009)
+
+
 Outreach
 ======
 * Expanding Your Horizons (EYH): *The Physics of Bubbles* (2010-2016)
