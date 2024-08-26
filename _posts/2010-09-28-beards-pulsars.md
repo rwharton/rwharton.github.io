@@ -8,7 +8,9 @@ tags:
 ---
 
 <p align="center">
-<img src="/images/hulse.jpg" alt="drawing" style="width:200px;"/>
+  <img alt="Hulse" src="/images/hulse.jpg" width="200">
+  <br>
+    <em>The bearded half of Hulse-Taylor</em>
 </p>
 
 
@@ -39,8 +41,11 @@ bodies to move closer together. So does the Hulse-Taylor binary show
 this? Take a look:
 
 <p align="center">
-<img src="/images/orbital_decay.jpg" alt="drawing" style="width:350px;"/>
+  <img alt="Oribital Decay" src="/images/orbital_decay.jpg" width="350">
+  <br>
+    <em>Orbital Decay of B1913+16 (Image credit: wikipedia)</em>
 </p>
+
 
 The data fit the prediction of general relativity perfectly! For this
 discovery Hulse and Taylor shared the 1993 Nobel prize in Physics. 

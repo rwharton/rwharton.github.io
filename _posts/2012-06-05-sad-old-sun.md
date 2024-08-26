@@ -7,10 +7,11 @@ tags:
   - Venus
 ---
 
-
-| ![alt text](/images/sad_transit.png "Sun") |
-| :--: |
-| Sad Old Sun |
+<p align="center">
+  <img src="/images/sad_transit.png" width="400">
+  <br>
+    <em>Sad Old Sun</em>
+</p>
 
 Today is the transit of Venus, which, aside from being a totally rad
 astronomical event, is also the perfect excuse to tell my favorite story

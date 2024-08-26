@@ -1,0 +1,18 @@
+---
+title: 'Tales from the Transit of Venus'
+date: 2012-06-05
+permalink: /posts/2012/06/old-blog-1/
+tags:
+  - Old Blog
+  - Venus
+---
+
+<p align="center">
+  <img alt="img-name" src="/path/image-name.png" width="300">
+  <br>
+    <em>caption</em>
+</p>
+
+------
+
+*This was originally published on an* [old blog](https://thevirtuosi.blogspot.com/2012/06/tales-from-transit-of-venus.html) *I ran with other physics grad students.*
