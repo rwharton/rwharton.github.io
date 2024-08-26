@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "astronomical software"
+title                    : "astronomy & software"
 title_separator          : ""
 name                     : &name "Robert S. Wharton"
 description              : &description "personal description"
@@ -24,7 +24,8 @@ author:
   avatar           : "profile_de.png"
   name             : "Robert S. Wharton"
   pronouns         : #"he/him"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Radio astronomer interested in pulsars, magnetars, 
+                      and FRBs."
   location         : "Pasadena, CA"
   employer         : #"Red Brick University"
   uri              : # URL

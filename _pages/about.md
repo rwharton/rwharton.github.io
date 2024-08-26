@@ -7,9 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-Website
-======
+About Me
+==========
 
-this is the website
+I am a radio astronomer interested in pulsars, magnetars, and fast radio 
+bursts (FRBs). While the specifics differ depending on the object in study, 
+a running thread through my work has been using very large (sometimes many 
+tens of terabytes) data sets to search for faint astrophysical signals.  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Learn More
+-----------
+
+You can check out my [CV](/cv/) [[pdf]](/files/wharton_cv.pdf), 
+resume [[pdf]](/files/wharton_resume.pdf), and list of 
+my [publications](/publications/) [[pdf]](/files/wharton_pubs.pdf).
+
+
