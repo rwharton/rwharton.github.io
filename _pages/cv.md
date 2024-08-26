@@ -9,11 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Curriculum Vitae
-==================
-
-A pdf version can be found [here](/files/wharton_cv.pdf).
-
+A pdf version of my CV can be found [here](/files/wharton_cv.pdf).
 
 Education
 ======

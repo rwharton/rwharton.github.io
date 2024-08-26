@@ -8,6 +8,9 @@ redirect_from:
 
 {% include base_path %}
 
+A pdf version of my publication list can be found [here](/files/wharton_pubs.pdf).
+
+
 Selected Publications
 ======================
 
