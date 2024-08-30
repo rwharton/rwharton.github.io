@@ -116,6 +116,11 @@ Honors and Awards
 * Jean Bennet Award - Penn State Physics Award - (2009)
 
 
+Community Contributions
+=========================
+* Reviewer for journals including *ApJ* and *MNRAS* (2016-present)
+* Reviewer for observing proposals to the GMRT (2018-present)
+
 Outreach
 ======
 * Expanding Your Horizons (EYH): *The Physics of Bubbles* (2010-2016)
