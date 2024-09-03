@@ -1,0 +1,845 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Quantifying A Cold Streak (Part 1)  astronomy &amp; software</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="astronomy & software">
+<meta property="og:title" content="Quantifying A Cold Streak (Part 1)">
+
+
+  <link rel="canonical" href="http://localhost:4000/posts/2024/09/02/bball">
+  <meta property="og:url" content="http://localhost:4000/posts/2024/09/02/bball">
+
+
+
+  <meta property="og:description" content="        Phrustration (Image Credit: si.com)">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2024-09-02T00:00:00-07:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Robert S. Wharton",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="astronomy & software Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="http://localhost:4000/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="http://localhost:4000/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="http://localhost:4000/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="http://localhost:4000/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.css"/>
+
+
+<!-- Support for MatJax -->
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">astronomy & software</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/about/">About</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/cv/">CV</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/year-archive/">Blog Posts</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="http://localhost:4000/images/profile_de.png" class="author__avatar" alt="Robert S. Wharton">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Robert S. Wharton</h3>
+    
+    <p class="author__bio">Radio astronomer interested in pulsars, magnetars, and FRBs.</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      <!-- Font Awesome icons / Biographic information  -->
+      
+        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Pasadena, CA</li>
+      
+      
+      
+      
+        <li><a href="mailto:rswharton95@gmail.com"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+      
+
+      <!-- Font Awesome and Academicons icons / Academic websites -->
+            
+      
+      
+      
+      
+        <li><a href="https://orcid.org/0000-0002-7416-5209"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
+      
+                              
+      
+
+      <!-- Font Awesome icons / Repositories and software development -->
+      
+            
+            
+      
+        <li><a href="https://github.com/rwharton"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+      
+            
+            
+
+      <!-- Font Awesome icons / Social media -->
+      
+      
+            
+      
+                  
+                  
+      
+            
+            
+            
+      
+            
+                  
+            
+      
+            
+            
+      
+              
+      
+                      
+      
+      
+            
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Quantifying A Cold Streak (Part 1)">
+    <meta itemprop="description" content="        Phrustration (Image Credit: si.com)">
+    <meta itemprop="datePublished" content="September 02, 2024">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Quantifying A Cold Streak (Part 1)
+</h1>
+          
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  11 minute read
+	
+</p>
+          
+        
+        
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-09-02T00:00:00-07:00">September 02, 2024</time></p>
+            
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p align="center">
+  <img alt="Phanatic Phorsaken" src="/images/blog/bball/phanatic_si.png" width="400" />
+  <br />
+    <em>Phrustration (Image Credit: si.com)</em>
+</p>
+
+<p>There’s an old Mitch Hedberg joke that goes “rice is great if you’re 
+really hungry and want to eat two thousand of something.”  Baseball 
+is kind of like that.  You have 162 games in the regular season where 
+nine batters will get 3-5 chances to hit each game per team. The chance 
+of getting a hit ranges from about 10% (not very good player) to about 
+30% (very good player) for each attempt. Over the course of the long 
+season, a player can string together a series of hits (hot streak) or 
+a series of outs (cold streak).  These streaks could be due to something 
+the player is doing (with the intrinsic probability of a hit changing), 
+but can often be explained by statistical variance (with a fixed probability).</p>
+
+<p>The same thing can happen when we consider the team as a whole. A team that 
+wins 100 out its 162 games is very good (usually enough to win the division). 
+However, this is only a winning percentage of about 62%.  Better than flipping 
+a coin, but not by a whole lot. So again, just by statistical chance, you could 
+get hot streaks (win a bunch) or cold streaks (lose a bunch). But it is also 
+possible that the team is just getting better or worse. Is there a way to 
+tell the difference?  Can we quantify when to panic?</p>
+
+<h1 id="motivation">Motivation</h1>
+
+<p>This exercise is mostly motivated by watching the ups and then 
+sustained downs of my team, the Philadelphia Phillies.  After 
+getting out to a really hot start, the team started losing a lot 
+more often in July and into August. Despite continuing to have 
+one of (if not the) best record in baseball, fans started to panic. 
+Sensing an opportunity to smugly explain this away as statistical 
+variance, I took a look at the numbers<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p>Grabbing the results for the 112 games at that point from 
+<a href="https://www.baseball-reference.com">baseball-reference.com</a>, 
+we can get a sense for how things changed over the course of 
+the season (to that point). First we can plot the cumulative 
+win fraction for the season.  That is, 
+for each game, we add up all the wins to that point and divide by the 
+total number of games to that point.  This will vary a lot early on 
+because each game counts for more of the average, but will eventually 
+steady out as each game is relatively less and less important.  The 
+results are shown in the next plot:</p>
+
+<p align="center">
+  <img alt="Cumulative Win Rate" src="/images/blog/bball/tot_rate_fig.png" width="500" />
+  <br />
+    Fig 1:  <em>Cumulative win rate for the season</em>
+</p>
+
+<p>which tracks with experience. To get a sense for how good that peak is, 
+note that only 15 teams have finished a season with a winning 
+percentage above 70% (see <a href="https://en.wikipedia.org/wiki/List_of_best_Major_League_Baseball_season_win%E2%80%93loss_records">here</a>).</p>
+
+<p>But if we are looking for ups and downs, maybe it is better to 
+consider stretches of games.  For example, we can check the 
+win fraction for a rolling 20-game window.  That is, we look 
+at the last 20 games and calculate the fraction of games that 
+were wins.  We then go to the next game and do the same.  This 
+means that at each step we are adding the most recent game and 
+removing the last game in the window.  The results are shown in 
+the following plot:</p>
+
+<p align="center">
+  <img alt="Window Wins" src="/images/blog/bball/roll_20_fig.png" width="500" />
+  <br />
+    Fig 2:  <em>Winning Rate in a rolling 20 game window</em>
+</p>
+
+<p>This plot certainly tracks with out the season has felt.  The team 
+got off to a very hot start, then eventually started cooling off 
+and losing more and more games.</p>
+
+<p>Now we can finally get to the point: the highest win rate for a 
+20 game stretch this season is 0.85 and the lowest is 0.30.  Are 
+these consistent with a good team that will win 95-100 games?</p>
+
+<h1 id="the-problem">The Problem</h1>
+
+<p>Let’s try to state the problem mathematically.  Assume we have 
+a binomial process that has two outcomes: a win or a loss. 
+Let \(p\) be the probability of a win, so that \(1-p\) is the 
+probability of a loss.  For a list of \(N\) games, what is 
+the probability that the highest number of wins (or losses) 
+in any \(M\) game window is greater than or equal to \(k\). 
+For Figure 2, we have \(N=112\) and \(M=20\).  The max number 
+of observed wins in a window is 17 and the max number of observed 
+losses in a window is 14. We want to determine if these are 
+statistically significant deviations for some given winning 
+probability of \(p\).</p>
+
+<p>Note that rolling \(M\) game window makes things a little 
+tricky. If we had just said <em>What is the probability that 
+we get k or more wins in a list of M games?</em>, then the 
+solution would be given by the 
+<a href="https://en.wikipedia.org/wiki/Binomial_distribution">binomial distribution</a>, 
+which we could easily calculate. If we were considering independent 
+groups of \(M\) games, we could calculate the probility for one 
+and then use the binomial distribution again to calculate over 
+the full season.</p>
+
+<p>What makes our problem tricky is that, while the games themselves 
+are independent, the counts in the rolling \(M\) game window are 
+<em>not independent</em>. We can see this by considering a 20 game window 
+that has 15 wins.  When we shift over to the next game, we lose 
+the least recent game (which could have been a win or a loss) and 
+gain the most recent game (which again could be a win or a loss). 
+That means that the number of wins in this window is constrained. 
+It could only be 14 (if you drop a win and gain a loss),
+15 (if the result you drop is the same you gain), or 16 (if you drop 
+a loss and gain a win). To state it a bit more clearly, the 
+number of wins in the current 20 game window depends on the 
+current game and the previous 19.</p>
+
+<h1 id="an-easy-solution">An Easy Solution</h1>
+
+<p>If we just want to get an answer, we could just run a bunch of 
+simulations and tally the results.  This is what I did first, so 
+let’s give it a try. A binomial process is very easy to simulate, 
+so long as we have a way of generating a random number that is 
+uniformly distributed on the interval \([0, 1)\).  If we draw 
+a number \(d\) in this interval, we will consider the event a 
+win if \(d\leq p\), otherwise it’s a loss.  Doing this \(N\) 
+times gets us a season. Once we generate a season, we can loop 
+through and find the max wins and losses in a rolling 20 game window.</p>
+
+<p>In Figure 3, we show the results of 100,000 simulated runs of 
+112 games.  In this case we took a fixed win probability of 
+\(p=0.6\), simulated a stretch of 112 games, then found the 
+largest number of wins (losses) in a 20 game window. We then 
+repeated this 100,000 times.  The blue histogram in Figure 3 
+represents the 100,000 max wins and the orange histogram gives 
+the 100,000 max losses. I have also indicated the observed values 
+(wins = 17, losses = 14).</p>
+
+<p align="center">
+  <img alt="Simulation" src="/images/blog/bball/sim_hist_fig.png" width="500" />
+  <br />
+    Fig 3:  <em>Max wins (blue) and losses (orange) in a 20-game window 
+                in 100,000 simulated 112 game stretches assuming a 
+                constant win probability of 0.6</em>
+</p>
+
+<p>So are the observed max wins/losses values consistent with a 
+win value of \(p=0.6\)?  Well, yeah, kinda. They certainly 
+fall within the respective histograms (although the losses 
+seem to be a bit further out on the tail than the wins).
+But ideally we would be able to calculate a probability for 
+each \(p\).  So let’s do that!</p>
+
+<p>Let’s focus on what we set out to calculate.  That is, we want 
+to find the probability that the highest number of wins 
+(or losses) in a 20 game window throughout the season exceeds 
+some number \(k\).  So we’ll now run our simulations for a range 
+of \(p\) values and calculate this number by simply counting 
+the number of max values that equal or exceed \(k\).  So for 
+wins, we will simulate our 100,000 seasons and find the most 
+wins in a 20-game window for each.  We will then count how many 
+of these are greater than or equal to 17, and divide by the total 
+number of simulations to get a probability.  We can do the same 
+for losses.</p>
+
+<p>Figure 4 below shows these results. The blue line gives the 
+probability that the max number of wins in a 20 game window 
+is greater than or equal to 17 for a range of win probabilities. 
+Likewise the orange curve shows the probability that the max number 
+of losses is greater than or equal to 14.</p>
+
+<p align="center">
+  <img alt="Sim" src="/images/blog/bball/sim_prob_fig.png" width="500" />
+  <br />
+    Fig 4:  <em>Probability that the max number of wins (blue) 
+                and losses (orange) exceed the observed 
+                values as a function of win probability.</em>
+</p>
+
+<p>These curves behave as we would expect.  If the win probability 
+is very low, then the probability of getting a max of at least 
+14 losses in a 20 game window is very good (i.e., 1). Likewise, 
+if the win probability is very high, then the probability of 
+getting a max of at least 17 wins in a 20 game window is very 
+good (i.e., 1). However, it is odd that the intersection 
+occurs at such a low probability (about 6%), but this could 
+be evidence against our assumption that \(p\) is fixed 
+for the whole season.</p>
+
+<p>Figure 4 showed the individual probability curves for losses 
+and wins as a function of individual game win probability. But 
+we want both of these to be true at the same time (since that’s what 
+we saw).  To get the probability the max wins is greater than or 
+equal to 17 <strong>and</strong> the max losses is greater than or equal to 14, 
+we simply multiply the probabilities.  The result is shown 
+below in Figure 5.</p>
+
+<p align="center">
+  <img alt="Sim" src="/images/blog/bball/sim_prob_prod_fig.png" width="500" />
+  <br />
+    Fig 5:  <em>Product of the two probability curves from Figure 4</em>
+</p>
+
+<p>This curve is a little noisy, but still looks about how we would expect 
+by multiplying the two curves in Figure 4.  It has to go toward zero 
+on the left because our blue curve goes to zero and it has to go toward 
+zero on the right because our orange curve goes to zero.  It is maximum 
+where the two curves from Figure 4 intersect.  The peak of this probability 
+curve is around \(p=0.57\), which is very close to the cumulative winning 
+fraction after 112 games from Figure 2. With this win probability, 
+we would expect the team to win about 92 out of 162 games for the 
+regular season. Not setting any records, but still pretty good.</p>
+
+<h1 id="conclusions">Conclusions</h1>
+
+<p>By simulating the results, we were able to numerically calculate 
+the probability of the maximum number of wins (or losses) in a 
+20 game window exceeding some particular value.  Based on this, 
+we see that the Phillies season probably has not been super well 
+described by a single unchanging win probability.  To properly 
+evaluate that claim, however, we would need to do some kind of 
+model comparison.</p>
+
+<p>However, in the next part we will <em>not</em> be doing that!  Instead 
+we will consider a fun (?) yet <strong>highly impractical</strong> way of 
+calculating the desired probability without simulations.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Unless otherwise noted, all the data will come from 
+  <a href="https://www.baseball-reference.com">baseball-reference.com</a>. 
+  For example, you can find the results for the Phillies season 
+  <a href="https://www.baseball-reference.com/teams/PHI/2024-schedule-scores.shtml#team_schedule">here</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="http://localhost:4000/tags/#baseball" class="page__taxonomy-item" rel="tag">Baseball</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#markov-process" class="page__taxonomy-item" rel="tag">Markov Process</a>
+    
+    </span>
+  </p>
+
+
+
+
+      </footer>
+
+      
+
+<section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/posts/2024/09/02/bball" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/posts/2024/09/02/bball" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/posts/2024/09/02/bball" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="http://localhost:4000/posts/2024/08/blog-post-5/" class="pagination--pager" title="Highest Point in Delaware
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      
+        <h4 class="page__related-title">You May Also Enjoy</h4>
+      
+      <div class="grid__wrapper">
+        
+          
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/posts/2024/08/blog-post-5/" rel="permalink">Highest Point in Delaware
+</a>
+      
+    </h2>
+    
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  less than 1 minute read
+	
+</p>
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2024-08-24T00:00:00-07:00">August 24, 2024</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><p>There are 13 US states with <a href="https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_elevation">peak elevations</a> above 10,000 feet.
+The state of Delaware is not one of them.
+Not even close. <a href="https://en.wikipedia.org/wiki/Ebright_Azimuth">Ebright Azimuth</a>, 
+the highest point in Delaware, tops out at 448 feet above sea level.
+Around Christmas 2023, my brother and I reached the summit.
+Next up, <a href="https://en.wikipedia.org/wiki/Britton_Hill">Britton Hill, Florida!</a></p>
+
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+        
+          
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/posts/2012/06/old-blog-1/" rel="permalink">Tales from the Transit of Venus
+</a>
+      
+    </h2>
+    
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  10 minute read
+	
+</p>
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2012-06-05T00:00:00-07:00">June 05, 2012</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><p align="center">
+  <img src="/images/sad_transit.png" width="400" />
+  <br />
+    <em>Sad Old Sun</em>
+</p>
+
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+        
+          
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/posts/2010/09/beards-pulsars/" rel="permalink">Beards and Pulsars
+</a>
+      
+    </h2>
+    
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  4 minute read
+	
+</p>
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2010-09-27T19:56:00-07:00">September 27, 2010</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><p align="center">
+  <img alt="Hulse" src="/images/hulse.jpg" width="200" />
+  <br />
+    <em>The bearded half of Hulse-Taylor</em>
+</p>
+
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+        
+          
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/posts/2010/01/moon/" rel="permalink">How Long Will a Bootprint Last on the Moon?
+</a>
+      
+    </h2>
+    
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+  
+	  7 minute read
+	
+</p>
+    
+
+        
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2010-01-01T00:00:00-08:00">January 01, 2010</time></p>
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><p align="center">
+  <img src="/images/bootprint_buzz.jpg" width="350" />
+  <br />
+    <em>Buzz Aldrin's bootprint (source: Wikipedia)</em>
+</p>
+
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="http://github.com/rwharton"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2024 Robert S. Wharton. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
+

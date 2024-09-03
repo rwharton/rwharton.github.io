@@ -8,7 +8,7 @@ tags:
 ---
 
 <p align="center">
-  <img alt="Phanatic Phorsaken" src="/images/blog/bball/phanatic_si.png" width="400">
+  <img alt="Phanatic Phorsaken" src="/images/blog/bball/phanatic_si.jpg" width="400">
   <br>
     <em>Phrustration (Image Credit: si.com)</em>
 </p>
